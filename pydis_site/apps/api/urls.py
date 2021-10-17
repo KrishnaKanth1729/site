@@ -17,7 +17,7 @@ from .viewsets import (  # noqa: I101 - Preserving the filter order
     UserViewSet
 )
 
-# http://www.django-rest-framework.org/api-guide/routers/#defaultrouter
+# https://www.django-rest-framework.org/api-guide/routers/#defaultrouter
 bot_router = DefaultRouter(trailing_slash=False)
 bot_router.register(
     'filter/filter_lists',
